@@ -1,0 +1,24 @@
+class CheckBit
+{
+    // Function to check if Kth bit is set or not.
+    static boolean checkKthBit(int n, int k)
+    {
+         if((n&(1<<k))!=0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    
+}
+
+exp:
+if n=5
+i.e=101
+check 3rd bit is set or not ?i.e 1 or not?
+1<<k i.e k=2(shift by 3 bits) then =>100
+(101)&(100)=>100!=0
+so,3rd bit of 5 is set.so result=true.

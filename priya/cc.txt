@@ -1,0 +1,137 @@
+file  
+ll n=10;
+//n=1010=in binary
+int cnt=log10(n)+1;//to count no of digits.
+int cnt=log2(n)+1; // to count no of digits in binary or to count no of bits
+cout<<cnt
+___________________________________________________________________________
+ factors: to get sum of factors of a range of numbers:
+ for(i=1;i<=n;i++)
+{
+ ans+=(n/i)*i;
+} //to avoid tle
+_________________________________________________________________________
+prime:if a number doesnot have atleast one factor before its square root of that number then the number is prime.eg: 100=n,sqrt(100)=10,100 must be divisible by atleast one number before 10 else it is prime. instead of checking upto 100 we can check up to 10 and can declare if the given number is prime or not.
+ll count(ll n) i
+{
+for(int i-0;i*i<=n;i++)
+{
+if(n%i==0)
+{
+cnt++;
+if(n/i=i)cnt++
+}
+}
+return cnt;
+______________________________________________________________________
+int a[5]={1,4,9,7,2}
+To sort an array in cpp:-->sort(a,a+5)
+
+Decalaration of vector in cpp:
+                              vector<int>a
+ to enter a value in vector: 
+                            a.push_back(1) 
+ another way to enter a value in vector:  
+                          a.emplace_back(20)
+ for sorting a vector in cpp:
+                         sort(a.begin(),a.end())
+for sorting a vector in cpp in reverse order or in descending order:
+                         sort(a.rbegin(),a.rend())
+to delete data:
+               a.pop_back(4)
+to sort a part of vector:
+                        sort(a.begin()+1,a.begin()+3)
+loops on vector:
+for(int i=0;i<a.size();i++)
+{
+cout<<a[i];
+}
+ to reverse a vector:
+          reverse(a.begin(),a.end())
+To find the given target in a vector:
+        int target=200;
+           if(find(a.begin(),a.end,target!=a.end());
+                {
+                   cout<<"present";
+                }
+           else
+                {
+                  cout<<"not present";
+                }
+for(auto it:a)
+{
+ cout<<it<<"";
+}
+binary search in cpp:
+        vector<int>v
+        v.push_down(1);
+        v.pushdown(2);
+        v.pushdown(3);
+        v.pushdown(4);
+        v.pushdown(5);
+//time complexity-->O(log2(n)) for sorted arrays only
+   if(binary_search(v.begin(),v.end(),target!=end)
+      {
+         cout<<"present";
+     }
+  else
+     {
+        cout<<"not present";
+     }
+   2D vectors: To print the 2D vectors
+vector<vector><int>>grid;
+grid.push_back({10,20,30});
+grid.push_back({1,2,3});
+grid.push_back({11,22,33});
+for(int i=0;i<grid.size();i++)
+{
+for(int j=0;j<grid[i].size();j++)
+{
+cout<<
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TO CHANGE LOWERCASE TO UPPERCASE OR UPPERCASE TO LOWERCASE:
+
+char x='a';
+x=(x& '_'); // ~(1<<5)-->'_'//underscore 
+cout<<x;//-->A
+char x='A';
+x=(x|'');-->1<<5-->' ';//space
+cout<<A;//-->a

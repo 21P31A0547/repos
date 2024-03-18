@@ -1,0 +1,6 @@
+Printline:explanation of System.out.println()--->
+System.out.println() can print to the console:
+*System is a class from the core library provided by Java
+*out is an object that controls the output
+*println() is a method associated with that object that receives a single argument
+eg:System.out.println("Hello, world!");

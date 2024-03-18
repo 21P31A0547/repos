@@ -1,0 +1,22 @@
+array rotation by left :
+ 1 2 3 4
+2 3 4 1
+_______________________________________
+import java.util.* ;
+import java.io.*; 
+
+
+public class Solution {
+
+    static int[] rotateArray(int[] arr, int n) {
+        Scanner sc =new Scanner(System.in);
+        int temp;
+        temp=arr[0];
+        for(int i=0;i<n-1;i++)
+        {
+            arr[i]=arr[i+1];
+        }
+        arr[n-1]=temp;
+        return arr;
+    }
+}

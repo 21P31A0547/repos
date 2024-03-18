@@ -1,0 +1,11 @@
+methods
+if (Character.isWhitespace(ch)) {
+                spaceCount++;
+ } else if (Character.isDigit(ch)) {
+                digitCount++;
+ }
+ else if (Character.isLetter(ch)) {
+                char lowerCh = Character.toLowerCase(ch);
+*int[] originalArray = Arrays.copyOf(a, n); 
+if (Arrays.equals(originalArray, a)) 
+ int[] concatenatedArray = concatenateArrays(array1, array2);

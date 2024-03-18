@@ -1,0 +1,20 @@
+m=matrix(1:20,nrow=5,ncol=4)
+print(m)
+cells=c(1,2,3,4,5,6,7,8,9)
+rows=c("row1","row2","row3")
+col=c("col1","col2","col3")
+print(rows)
+m1=matrix(cells,nrow=3,ncol=3,byrow=T)
+print(m1)
+print(col)
+m2=matrix(cells,nrow=3,ncol=3,byrow=F)
+print(m2)
+
+
+
+str="hi this is pav"
+m=unique(tolower(str))
+print(m)
+n=c(1,2,3,2,4)
+k=unique(n)
+print(k)

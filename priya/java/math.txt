@@ -1,0 +1,20 @@
+math:
+int res=pow(2,4)
+int ans=abs(a-b)
+int l=sqrt(25)
+
+log3(n)-->i*=3;
+log2(n)-->i*=2
+
+
+for(i=1;i<=100;i*=2)=for(i=100;i>=1;i/=2)
+
+______________________________________________________
+for setting a bit :
+
+int k=2;
+int mask=1<<2;
+n=n|mask;
+____________________
+for unsetting a bit:
+

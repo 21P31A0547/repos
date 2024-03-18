@@ -1,0 +1,65 @@
+import java.util.*;
+class calc
+{
+public static int add(int p,int q)
+{
+return(p+q);
+}
+public static int sub(int p,int q)
+{
+return(p-q);
+}
+public static int mul(int p,int q)
+{
+return(p*q);
+}
+public static int div(int p,int q)
+{
+return(p/q);
+}
+public static int mod(int p,int q)
+{
+return(p%q);
+}
+public static void main(String args[])
+{
+Scanner sc =new Scanner(System.in);
+int ch,x,y,res;
+while(true)
+{
+System.out.println("1.add\n2.sub\n3.mul\n4.div\n5.mod\n6.exit");
+System.out.println("enter ur choice");
+ch=sc.nextInt();
+switch(ch)
+{
+case 1: x=sc.nextInt();
+             y=sc.nextInt();
+            res=add(x,y);
+            system.out.println("sum="+res);
+            break;
+case 2:  x=sc.nextInt();
+             y=sc.nextInt();
+            res=sub(x,y);
+            system.out.println("sub="+res);
+            break;
+case 3:  x=sc.nextInt();
+             y=sc.nextInt();
+            res=mul(x,y);
+            system.out.println("mul="+res);
+            break;
+case 4:  x=sc.nextInt();
+             y=sc.nextInt();
+            res=div(x,y);
+            system.out.println("div="+res);
+            break;
+case 5: x=sc.nextInt();
+             y=sc.nextInt();
+            res=mod(x,y);
+            system.out.println("mod="+res);
+            break;
+case 6: System.exit(0);
+            break;
+            
+
+
+

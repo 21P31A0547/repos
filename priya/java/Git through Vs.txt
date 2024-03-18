@@ -1,0 +1,5 @@
+Git through Vs:
+  add git extension to vscode 
+  clone repo to vs 
+  create a file in vs 
+ In source control directly add commit message and commit and push 

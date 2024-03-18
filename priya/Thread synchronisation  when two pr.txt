@@ -1,0 +1,2 @@
+//Thread synchronisation:  when two processes try to access common //resource then we will go for synchronisation
+//keyword:synchronized

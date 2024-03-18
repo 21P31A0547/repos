@@ -1,0 +1,6 @@
+To find kth bit (0 or 1):
+____________________
+int k=4;
+mask=1<<k;
+int kth bit= ((a&mask)>0)?1:0;
+cout<<kthbit<<endl;

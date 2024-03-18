@@ -1,0 +1,102 @@
+Bit Magic:
+&,|,^,<<,>>
+__________________
+
+10&8=>8
+10|8=>10
+
+10<<1(10*2^1)
+1010
+res=10100
+
+10>>1
+1010
+res=0101(10/2^1)
+
+_____________________
+odd even:
+
+num&1=1(odd)
+num&1=0(even)
+_______________
+2^n-->1 set bit 
+if((n&(n-1))==0)-->for 2^n number checking 
+_____________________
+
+#include<bits/stdc++
+using namespace std;
+#define ll long long
+#define LOOP(i,a,b) for(int i=a;i<=b;i++)
+#define RLOOP(i,a,b) for(int i=a;i>=b;i--)
+void PrintBinary(int n)
+{
+RLOOP(i,8,0)
+{
+if(n&(1<<i))
+{
+cout<<1<<"";
+}
+else
+{cout<<0<<"";
+}
+}
+cout<<"\n";
+}
+int main()
+{
+int a=10;
+printBinary(a);
+int setbits=_builtin_popcount(a);
+cout<<setbits;
+}
+_________
+using loop:
+int setbits=0;
+RLOOP(i,31,0)
+{
+if(a&(1<<i))
+setbits++;
+}
+cout<<setbits;
+___________
+
+print Binary:
+print Binary(a);
+// how to know he kth bit
+int k=4;
+mask=1<<k;
+int kth bit= ((a&mask)>0)?1:0;
+cout<<kthbit<<endl;
+___
+int n=10;k=2;
+mask=1<<k;
+n=n|mask;
+cout<<n<<endl;
+_____
+set and unset
+101101 k=3
+make it 100101
+~(001000)=>110111=>now((110111)&(101101))
+
+n=45;
+k=3;
+mask=~(1<<k);
+n=n&mask;  
+
+set the kth bit:
+n=10 =>1010
+mask =0001<<k=>0100
+n|mask
+
+unset:
+
+
+Alphabets A to a:
+5th bit changing 
+0000001000001=>A
+0000001100001=>a
+
+
+
+
+

@@ -1,0 +1,5 @@
+Strings:
+In java 
+if we want to modify a string we cant as it is immutable so instead we can use another empty string.
+But if we use string builder and string buffer there is no such restrictions on it so we can directly modify it .
+ Input:-->StringBuilder s = new StringBuilder(inputString);

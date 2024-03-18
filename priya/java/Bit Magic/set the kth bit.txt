@@ -1,0 +1,4 @@
+set the kth bit:
+n=10 =>1010
+mask =0001<<k=>0100
+n|mask
